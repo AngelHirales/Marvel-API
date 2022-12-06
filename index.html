@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="7d441fa1467d5e2e92d6b2622455c586.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Marvel API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <div>
+            <img  id="header-logo" src="Ephoto360.com_16389668aa7799.jpg" alt="logo">
+        </div>
+    </header>
+
+    <nav>
+        <ul id="menu">
+            <li>
+                <a href="index.html">Pagina Principal</a>
+            </li>
+            <li>
+                <a href="lista.html">Personajes</a>
+            </li>
+            <li>
+                <a href="comics.html">Comics</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="textoinicio">
+        <h3>Bienvenido al Buscador de la Marvel API.</h3>
+    </div>
+
+    <main id="main">
+        <input id="barrabusqueda" type="search" class="main__input" placeholder="Busca un Superheroe: Por ej. hulk">
+        <button id="botonbuscar" class="main__search-buttons">Buscar</button>
+    </main>
+
+    <h2 id="entre">Tu resultado aparecera asi cuando busques:</h2>
+
+    <main id="main">
+        <div id="container" class="container">
+            <div class="row" id="Marvel-row"></div>
+                <div class="data" id="data">
+                    <img id="heroimg" class="img-hero">
+                    <h3 id="titulo"></h3>
+                    <h3 id="comics"></h3>
+                    <ul id="lista">
+                        <li id="tcomics"></li>
+                        <li id="tcomics1"></li>
+                        <li id="tcomics2"></li>
+                        <li id="tcomics3"></li>
+                        <li id="tcomics4"></li>
+                        <li id="tcomics5"></li>
+                    </ul>
+                </div> 
+        </div>
+    </main>
+
+    <footer id="fot"> 
+        <p>copyright &copy; Marvel API - 2022</p> 
+    </footer>
+
+    <div class="clearfix"></div>
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
